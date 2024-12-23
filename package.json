@@ -1,0 +1,22 @@
+{
+  "name": "simulation-name",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx tsc && npx parcel build index.html --public-url ."
+  },
+  "dependencies": {
+    "scenerystack": "^0.0.13"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "typescript": "~5.3.3"
+  },
+  "title": "Simulation Title",
+  "author": "Author",
+  "@parcel/resolver-default": {
+    "packageExports": true
+  }
+}
