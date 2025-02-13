@@ -8,7 +8,7 @@
     "build": "npx tsc && npx parcel build index.html --public-url ."
   },
   "dependencies": {
-    "scenerystack": "0.0.27"
+    "scenerystack": "0.0.28"
   },
   "devDependencies": {
     "parcel": "^2.12.0",
